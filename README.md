@@ -12,4 +12,5 @@ This method uses a console cable to connect to the firewall.  [The cable I used]
 ## Locate the COM Port in Windows
 + Press the Windows key and type "Device Manager", press enter
 + Scroll down to Ports (COM&LPT)
-+ Look for "USB-SERIAL CH340", take note of the COM port ![COM Port](assets/2.devicemanager.png)
++ Look for "USB-SERIAL CH340", take note of the COM port
++ +![COM Port](assets/2.devicemanager.png)
