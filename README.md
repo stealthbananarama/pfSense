@@ -32,9 +32,9 @@ This method uses a console cable to connect to the firewall.  [The cable I used]
 
 ## Change the BIOS Settings in the Sophos XG 115
 + Press F2 like a madman to get to the bios screen
-+ ![Sophos XG 115 Bios Screen](assets/3.2.bios_settings.png)
 + Go to Advanced -> USB Configuration
 + Make sure "Port 60/64 Emulation" is set to "Disabled"
++ ![Sophos XG 115 Bios Screen](assets/3.2.bios_settings.png)
 + Go to Boot
 + Go to Boot Option #1
 + Select USB Hard Disk
@@ -46,11 +46,13 @@ This method uses a console cable to connect to the firewall.  [The cable I used]
 ## Tweak PuTTy Settings for pfSense
 + Open putty back up
 + Change "Speed" to 115200
++ ![PuTTy Bit Rate](assets/4.1.change_putty_to_115200.png)
 + Click "Open"
 
 ## Connect to pfSense
 + Power the firewall back on
 + You'll soon end up at the pfSense boot screen
++ ![pfSense Boot Screen](assets/5.1.pfsense_boot_screen.png)
 + Wait for pfSense to show "vt100" and select that
 + Press enter to select "Accept" the license agreement
 + Press enter to select "Install pfSense"
@@ -65,6 +67,7 @@ This method uses a console cable to connect to the firewall.  [The cable I used]
 ## pfSense Configuration
 + You will end up at the pfSense boot screen again
 + Let pfSense run its course until you come to the configuration screen
++ ![pfSense Configuration](assets/6.1.pfsense_configuration_screen.png)
 
 ### ASSIGN INTERFACES
 + Press '1' to "Assign Interfaces"
@@ -89,6 +92,7 @@ This method uses a console cable to connect to the firewall.  [The cable I used]
 
 ### CONTINUING CONFIGURATION VIA THE WEBCONFIGURATOR
 + Open up a web browser and go to 192.168.200.1
++ ![pfSense Webconfiguration Welcome Screen](assets/7.1.pfsense_starting_page.png)
 + Enter the default credentials -- username: admin, password: pfSense
 + You will end up at the pfSense initial configuration page
 + Click "next"
