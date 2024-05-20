@@ -23,11 +23,11 @@ This method uses a console cable to connect to the firewall.  [The cable I used]
 + ![PuTTy Settings](assets/3.1.putty_serial_settings.png)
 + In the left hand menu, go to Connection -> Serial
 + Set the following options:
-1) Serial Line to Connect To: COM Port that was Noted
-2) Speed: 38400
-3) Data Bits: 8
-4) Stop Bits: 1
-- Click "Open"
++ Serial Line to Connect To: COM Port that was Noted
++ Speed: 38400
++ Data Bits: 8
++ Stop Bits: 1
++ Click "Open"
 
 ## Change the BIOS Settings in the Sophos XG 115
 + Press F2 like a madman to get to the bios screen
