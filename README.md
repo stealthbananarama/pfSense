@@ -20,7 +20,7 @@ This method uses a console cable to connect to the firewall.  [The cable I used]
 + Download [PuTTY](https://www.puttygen.com/download-putty)
 + Install and Run PuTTy
 + Set "Serial Line" to the COM port that was noted 
-+ ![PuTTy Settings](assets/3.1.putty_serial_settings.png)
++ ![PuTTy Settings](assets/3.putty_screen.png)
 + In the left hand menu, go to Connection -> Serial
 + Set the following options:
 + Serial Line to Connect To: COM Port that was Noted
@@ -28,15 +28,17 @@ This method uses a console cable to connect to the firewall.  [The cable I used]
 + Data Bits: 8
 + Stop Bits: 1
 + Click "Open"
++ ![PuTTy Settings](assets/3.1.putty_serial_settings.png)
 
 ## Change the BIOS Settings in the Sophos XG 115
 + Press F2 like a madman to get to the bios screen
-+ ![Sophos XG 115 Bios Screen](3.2.bios_settings.png)
++ ![Sophos XG 115 Bios Screen](assets/3.2.bios_settings.png)
 + Go to Advanced -> USB Configuration
 + Make sure "Port 60/64 Emulation" is set to "Disabled"
 + Go to Boot
 + Go to Boot Option #1
 + Select USB Hard Disk
++ ![Sophos Boot from USB](assets/3.3.set_firewall_to_boot_from_memstick.png)
 + Go to Save & Exit
 + Select "Save Changes & Reset" and press enter
 + Very quickly, manually power the firewall off by holding the power key for 5 seconds (the light will turn red) -- don't power the firewall back up until the settings for putty are tweaked)
