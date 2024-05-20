@@ -21,4 +21,6 @@ This method uses a console cable to connect to the firewall.  [The cable I used]
 + Install and Run PuTTy
 + Set "Serial Line" to the COM port that was noted 
 + ![PuTTy Settings](assets/3.1.putty_serial_settings.png)
-
++ In the left hand menu, go to Connection -> Serial
++ Set the following options:
+- Serial Line to Connect To: COM Port that was Noted
