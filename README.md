@@ -14,3 +14,11 @@ This method uses a console cable to connect to the firewall.  [The cable I used]
 + Scroll down to Ports (COM&LPT)
 + Look for "USB-SERIAL CH340", take note of the COM port
 + ![COM Port](assets/2.devicemanager.png)
+
+## Connect to the Sophos XG 115 Using PuTTy
++ Note: The BIOS procedure outlined here was able to successfully enable me to install pfSense.  The information I got my settings from came from [this](https://www.reddit.com/r/PFSENSE/comments/uyjkgv/anyone_running_pfsense_on_a_sophos_xg115_rev_2/) post on Reddit.  I cannot speak for any other settings listed in the document, as what I outline here is what worked for me.
++ Download [PuTTY](https://www.puttygen.com/download-putty)
++ Install and Run PuTTy
++ Set "Serial Line" to the COM port that was noted 
++ ![PuTTy Settings](assets/3.1.putty_serial_settings.png)
+
